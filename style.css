@@ -49,6 +49,7 @@ h1 {
   transition: .5s;
   background-size: 200%;
   box-shadow: 6px 4px #eee;
+  outline: none;
 }
 
 .sound-btn:hover {
