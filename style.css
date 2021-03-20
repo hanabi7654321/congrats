@@ -1,0 +1,55 @@
+body {
+  max-width: 800;
+  height: 800px;
+  font-family: 'Baloo Tamma', cursive, 'Yu Gothic', YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+
+  text-align: center;
+  padding-top: 40px;
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  color: white;
+  font-size: 72px;
+  letter-spacing: 5px;
+  padding: 100px auto 100px auto;
+  position: absolute;
+  margin-top: -40px;
+  
+  text-shadow: -1px -1px 0px rgb(75, 133, 187),
+    6px 6px 0px rgb(75, 133, 187),
+    10px 10px 0px rgb(26, 26, 116);
+}
+
+.sound-btn {
+  margin-top: 180px;
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  text-align: center;
+  font-family: 'Baloo Tamma', cursive;
+  font-size: 20px;
+  color: #FFF;
+  text-shadow: 2px 2px #ccc,
+            6px 6px rgb(97, 97, 97);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 50%;
+  background-image: linear-gradient(-90deg, #FF006E, #FFD500);
+  transition: .5s;
+  background-size: 200%;
+  box-shadow: 6px 4px #eee;
+}
+
+.sound-btn:hover {
+  background-position: right center;
+}
+
+.memo {
+  margin: 100px auto ;
+  font-size: 12px;
+}
