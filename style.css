@@ -1,37 +1,95 @@
 body {
-  
+  margin: 0 auto;
   font-family: 'Baloo Tamma', cursive, 'Yu Gothic', YuGothic, Verdana, 'Hiragino Kaku Gothic ProN','Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
 
   text-align: center;
   padding-top: 40px;
-  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
-}
-
-.container {
-  margin: 0;
-  padding: 0;
+  background-color: #2DC4CF;
   max-width: 800px;
   height: 800px;
 }
+
+.wf-mplus1p { font-family: "M PLUS 1p"; }
+
 
 h1 {
   text-align: center;
   width: 100%;
   margin: 0px auto;
   color: white;
-  font-size: 72px;
+  font-size: 64px;
   letter-spacing: 5px;
-  padding: 100px auto 100px auto;
-  position: absolute;
-  margin-top: -40px;
-  
+  padding: 100px auto 80px auto;  
   text-shadow: -1px -1px 0px rgb(75, 133, 187),
-    6px 6px 0px rgb(75, 133, 187),
-    10px 10px 0px rgb(26, 26, 116);
+  6px 6px 0px rgb(75, 133, 187),
+  12px 12px 0px rgb(26, 26, 116);
 }
 
+.words01 {
+   margin: 80px auto 40px auto;
+   color: rgb(26, 26, 116);
+   text-shadow: 2px 2px white;
+}
+
+.container {  
+  display: flex;
+  align-items: center;
+  margin: 40px auto;
+  padding: 0;
+  max-width: 480px;
+  height: 200px;
+  background-color: white;
+  /* border: 2px dotted rgb(26, 26, 116); */
+  border-radius: 20px;
+}
+
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;  
+}
+
+.title {
+  width: 50%;
+  padding: 16px  10px;
+  text-align: right;  
+  font-size: 16px;
+  color: rgb(26, 26, 116);
+  text-shadow: 2px 2px 0px white;
+}
+
+.contents {
+  width: 50%;
+  text-align: left;
+}
+
+
+
 .sound-btn {
-  margin-top: 180px;
+  color: rgb(26, 26, 116);
+  border-color: rgb(26, 26, 116);
+  box-shadow: 6px 0 0 0 rgb(26, 26, 116), 6px 6px 0 0 rgb(26, 26, 116), 0 6px 0 0 rgb(26, 26, 116);
+  display: inline-block;
+  margin: 20px;
+  font-size: inherit;
+  line-height: 1.42;
+  width: 150px;
+  padding: 1.2em 1.6em;
+  font-weight: normal;
+  border-width: 3px;
+  border-style: solid;
+  background: transparent;
+  border-radius: 0.4em;
+  cursor: pointer;
+  font-family: "Booster Next FY", "Avenir Next", Avenir, sans-serif;
+  user-select: none;
+  text-shadow: 2px 2px white;
+  vertical-align: bottom;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s, background-color 0.3s;
+  border-radius: 0.5em 0.6em/0.6em 1em 3em 1em;
+  top: 200px;
+  /* margin-top: 180px;
   display: inline-block;
   width: 180px;
   height: 180px;
@@ -48,7 +106,8 @@ h1 {
   background-image: linear-gradient(-90deg, #FF006E, #FFD500);
   transition: .5s;
   background-size: 200%;
-  box-shadow: 6px 4px #eee;
+  box-shadow: 6px 4px #eee; */
+  outline: none;
 }
 
 .sound-btn:hover {

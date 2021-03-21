@@ -22,7 +22,7 @@ var freq = new Array();  // condition of the frequency
 var ang = new Array();   // set the angle
 var type = new Array();  // set rotate type
 var winx = 800;          // width of the window(default:800px)
-var winy = 600;          // height of the window(default:600px)
+var winy = 800;          // height of the window(default:600px)
 
 // Output of the element.
 for( var i=0; i<NUM; i++ ){
